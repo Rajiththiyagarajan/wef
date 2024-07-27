@@ -1,0 +1,516 @@
+navbar-brand img {
+    height: 20px; 
+    width: auto; 
+    font-size: 20px;
+}
+
+.bod{
+        margin: 0;
+        width: 85%;
+        height: 100vh;
+        margin: auto;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.m-0 {
+    position: fixed; /* Fix the navbar at the top of the viewport */
+    top: 0;
+    left: 0;
+    width: 100%; /* Ensure it spans the full width */
+    z-index: 1000; /* Ensure it is above other content */
+    background-color: white; /* Match the background color to your design */
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+.navbar img {
+    width: 150px;
+}
+
+.logo {
+    width: 50px;
+}
+
+.menu-icon {
+    display: none;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    margin-left: 20px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+}
+
+.nav-link:hover {
+    background-color: #555;
+    border-radius: 4px;
+}
+
+#menu-toggle {
+    display: none;
+}
+
+
+@media (max-width: 768px) {
+    .menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        left: 0;
+    }
+
+    .nav-item {
+        margin: 0;
+    }
+
+    .nav-link {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .menu-icon {
+        display: block;
+        color: black;
+
+    }
+
+    #menu-toggle:checked + .menu-icon + .menu {
+        display: flex;
+    }
+    .navbar .logo{
+        width: 80px;
+    }
+    .container img {
+        width: 90px;
+    }
+}
+
+
+
+
+.headbar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    background-size: cover;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-top: 70px; 
+
+}
+
+.head {
+    width: 100%;
+    /* height: 80vh; */
+    overflow: hidden;
+    position: relative;
+    position: relative;
+    text-align: center;
+}
+
+.head img {
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-top: 40px;
+}
+.head-content h1{
+color: white;
+}
+
+
+@media (max-width: 1050px) {
+    
+}
+
+@media (max-width: 900px) {
+    
+}
+
+@media (max-width: 750px) {
+    .head{
+        height: 30vh;
+    }
+    
+}
+
+
+
+
+.work {
+    display: flex;  
+    justify-content: space-between; 
+    align-items: center;  
+    margin: 20px;  }
+
+.workleft, .workright {
+    flex: 1;  
+    padding: 10px;  
+}
+
+.workleft img, .workright img {
+    width: 100%;  
+    height: auto;  
+    display: block;  
+    border-radius: 8px;  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  }
+
+
+
+.row button{
+    font-size: 15px;
+    color: #121111;
+    font: bold;
+    margin-top: 20px;
+    border-style: none;
+    
+    
+}
+
+
+
+.cursor {
+    cursor: pointer;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.cursor:hover {
+    color: #ead8d9; 
+    background-color: azure; 
+}
+/* Index.css */
+
+
+
+
+.predictive-maintenance-btn ,.lift-btn,.install-btn,.escalator-btn {
+    background-color: #e0e5ea; 
+    color: white;              
+    border: none;              
+    padding: 10px 20px;        
+    font-size: 16px;           
+    border-radius: 5px;        
+    cursor: pointer;          
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+}
+
+.predictive-maintenance-btn:hover,.lift-btn:hover,.escalator-btn:hover,.install-btn:hover {
+    background-color: #0056b3; 
+    transform: scale(1.05);    
+}
+
+@media (max-width: 1050px) {
+    
+}
+
+@media (max-width: 900px) {
+    
+}
+
+@media (max-width: 750px) {
+    .card{
+        margin-bottom: 10px;
+    }
+    
+}
+
+
+
+
+
+.abc{
+    margin-top: 30px;
+}
+
+.abc h1 {
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+
+
+
+.abc h2{
+    font-size: 32;
+     font-weight: 700; 
+     color: #4e4039;
+     align-items: center;
+     text-align: center;
+    
+}
+
+.abc hr{
+    border: 1px ;
+            height: 2px; 
+            background: red;
+}
+
+hr{
+    border: 1px ;
+    height: 2px; 
+    background: red;
+}
+
+.services{
+    text-align: center;
+    align-items: center;
+}
+
+
+
+.About {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.aboutleft {
+    flex: 1;
+    padding: 10px;
+}
+
+.aboutright {
+    flex: 1;
+    padding: 10px;
+}
+
+.About img {
+    max-width: 100%;
+    height: auto;
+}
+
+.About button{
+    border-style: none;
+    border-radius: 10px;
+    background-color: #0056b3;;
+}
+.animated-button {
+    padding: 10px 15px;
+    background-color: var(--light-color);
+    border: 2px solid #1e1e1e1a;
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--text-color);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.animated-button:hover {
+    background-color: var(--bg-burnt-hover); 
+    transform: scale(1.05); 
+}
+
+.animated-button:hover i {
+    transform: translateX(5px); 
+}
+
+@media (max-width: 1050px) {
+    
+}
+
+@media (max-width: 900px) {
+    
+}
+
+@media (max-width: 750px) {
+    .contact-form input{
+        margin-bottom: 10px;
+    }
+    
+}
+
+
+
+.slogan {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px;
+    background-color: #d4caca1f;
+    border-radius: 25px;
+    max-width: 90vw;
+    margin-top: 20px;
+}
+
+.sloganleft {
+    flex: 1;
+    padding-right: 20px; 
+}
+
+.sloganleft h1 {
+    font-size: 24px;
+    line-height: 1.5;
+    color: rgb(9, 0, 0);
+}
+
+
+
+.sloganright button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    width: 200px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.sloganright button:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+    .slogan {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .sloganleft {
+        padding-right: 0;
+        margin-bottom: 20px; 
+    }
+
+    .sloganright {
+        width: 100%; 
+    }
+
+    .sloganright button {
+        width: 100%; 
+    }
+}
+
+ 
+
+
+
+ body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.contact {
+    background-image: url('../Assets/od.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    padding: 20px;
+    color: white; 
+    border-radius: 10px;
+}
+
+.contact-form {
+    background: rgba(0, 0, 0, 0.5); 
+    border-radius: 10px;
+    display: inline-block;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.contact-form label,
+.contact-form input,
+.contact-form textarea,
+.contact-form select,
+.contact-form button {
+    display: block;
+    width: 95%;
+    margin-bottom: 10px;
+    padding: 7px;
+
+}
+
+
+.contact-form button{
+    margin-left: 10px;
+
+
+}
+.contact-form input,
+.contact-form textarea,
+.contact-form select {
+    border: none;
+    border-radius: 5px;
+    margin-left: 9px;
+
+}
+
+.contact-form button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #E74C3C;
+    color: white;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #C0392B;
+}
+
+
+.row .partone{
+    margin-top: 40px;
+}
+
+
+.partone li{
+    padding: 5px;
+    list-style: none;
+   
+
+}
+
+
+.partone a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #5c5c5c;
+
+}
+
+.footer-content{
+    display: flex;
+}
+
+html {
+    scroll-behavior: smooth;
+}
